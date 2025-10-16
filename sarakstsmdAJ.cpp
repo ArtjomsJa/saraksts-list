@@ -304,12 +304,14 @@ do
         break;
         //system("pause>nul"); break;
 
-        case 8:
-            head=DeleteAfter(head);break;
+        case 8:if(!head){cout<<"Jūsu sarakstā nav elementu";}
+        else{ 
+            head=DeleteAfter(head);}break;
         //system("pause>nul"); break;
 
-        case 9: 
-            head=DeleteBefore(head);break;
+        case 9: if(!head){cout<<"Jūsu sarakstā nav elementu";}
+        else{ 
+            head=DeleteBefore(head);}break;
         //system("pause>nul"); break;
 
         case 10: n=skaits(head);
@@ -336,5 +338,6 @@ while(izvele!=0);
 
 system("pause>nul");
 return 0;   
+
 
 }
