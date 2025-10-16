@@ -2,6 +2,8 @@
 #include <cstdlib>
 using namespace std;
 
+
+//-----struct node - mezgls//
 struct Node
     {
     int data;
@@ -341,3 +343,4 @@ return 0;
 
 
 }
+
