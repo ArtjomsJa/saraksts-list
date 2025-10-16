@@ -173,9 +173,6 @@ Node *DeleteBefore(Node *head){
     int x;
     cout<<"Norādiet, pirms kāda skaitļa izdzēst mezglu: ";cin>>x;
 
-    if (!head) {
-        cout << "Saraksts ir tukšs\n";
-        return head;
     }
 
     if (head->data == x) {
@@ -343,4 +340,5 @@ return 0;
 
 
 }
+
 
