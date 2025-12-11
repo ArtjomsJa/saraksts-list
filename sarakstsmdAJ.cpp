@@ -173,7 +173,7 @@ Node *DeleteBefore(Node *head){
     int x;
     cout<<"Norādiet, pirms kāda skaitļa izdzēst mezglu: ";cin>>x;
 
-    }
+    
 
     if (head->data == x) {
         cout << "Nav mezgla pirms norādītā pirmā elementa.\n";
