@@ -21,7 +21,7 @@ Node *CreateNode ()
     return newNode; 
 }
 
-//-------izvadisana----// //---example----/
+//-------izvadisana----// //---example----/ //--wdefewfeferf----/
 
 void PrintList (Node *head)
 { 
